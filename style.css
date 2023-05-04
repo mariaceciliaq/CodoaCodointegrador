@@ -1,0 +1,314 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: rgb(53, 58, 64);
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.imagen-logo{
+    height: 60px;
+    text-align: center;
+}
+
+h2 {
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 0;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+}
+
+nav{
+    display: inline-block;
+    text-align: right;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+.enlace_distint{
+    color: green;
+    
+}
+
+main{
+    height: 100vh;
+    position: relative;
+}
+
+.img-principal{
+    width: 100%;
+    overflow: hidden;
+    background-blend-mode: soft-light;
+}
+
+.card-float{
+    position: absolute;
+    right: 80px;
+    top: 200px;
+    width: 50%;
+    color: white;
+    font-weight: 300;
+    text-align: right;
+    padding: 10px;
+    background-blend-mode: soft-light;
+}
+
+p{
+    font-style: bold;
+    font-size: 19px;
+    padding: 15px 0px;
+}
+
+.enlace1{
+    border: 2px solid white;
+    border-radius: 10px;
+    font-style: bold;
+    font-size: 18px;
+}
+
+.enlace2{
+    background-color: green;
+    border-radius: 10px;
+    font-style: bold;
+    font-size: 18px;
+}
+
+.container-enlace{
+    padding: 20px;
+}
+
+.textoconoceoradores h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    text-align: center;
+}
+
+.textoconoceoradores h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-style: bold;
+    text-align: center;
+}
+.container-grid{
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    justify-content: center;
+}
+
+.container-grid .item{
+    display: grid;
+    height: 550px;  
+    border: 1px solid grey;
+    margin: 5px;
+    
+} 
+    
+.img-steve{
+    width: 100%;
+    align-items: start;
+}
+
+.img-bill{
+    width: 100%;
+    align-items: start;
+}
+
+.img-ada{
+    width: 100%;
+    align-items: start;
+}
+
+.container-button{
+    text-align: left;
+    
+}
+
+.button1{
+    color: black;
+    font-style: bold;
+    background-color: rgb(254, 193,7);
+    border-radius: 10px;
+    font-size: 16px; 
+    margin-left: 5px;
+}
+.button2{
+    background-color: rgb(23, 162, 185);
+    border-radius: 10px;
+    font-style: bold;
+    font-size: 16px; 
+    margin-left: 15px;
+}
+.button3{
+    font-style: bold;
+    background-color: rgb(107, 117, 126);
+    border-radius: 10px;
+    font-size: 18px; 
+    margin-left: 5px;
+}
+.button4{
+    background-color: rgb(218, 53, 67);
+    border-radius: 10px;
+    font-style: bold;
+    font-size: 16px; 
+    margin-left: 15px;
+}
+
+.container-grid p{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px 0px;
+    margin: 5px;  
+}
+
+.container-grid2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    
+}
+
+.container-grid2 .item{
+    display: grid;
+    height: 427px;  
+    border: 1px solid white;
+    margin: 0px;
+    background-color: darkslategrey;
+    color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+}
+.container-grid2 .img-honolulu{
+    width: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.container-grid2 h5{
+    color: white;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+}
+
+.container-grid2 p{
+    color: white;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+    padding-top: 5px;
+    margin-left: 5px;
+}
+.button5{
+    border: 1px solid white;
+    border-radius: 10px;
+    font-style: bold;
+    font-size: 18px;
+    height: 20px;
+    width: 90px;
+    margin: 10px;
+
+}
+
+.formulario{
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    border: none;
+}
+
+.formulario h4{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-display: center;
+}
+.formulario h1{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+    font-display: center;
+}
+
+input::placeholder{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+textarea::placeholder{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+}
+.datos{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 8px;   
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.textoarea{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.formulario p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-justify: center;
+    margin-left: 21%;
+}
+
+.enviar{
+    background-color: rgb(150, 201, 62);
+    border-radius: 5px;
+    font-style: bold;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    width: 774px;
+    text-align: center;
+    border-color: none;
+    margin-left: 21%;
+}
+
+footer{
+    background: rgb(29, 57, 71);
+    width: 100%;
+    height: 110px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+a{
+    display: inline-flex;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 22px;
+}
