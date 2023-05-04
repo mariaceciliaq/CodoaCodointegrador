@@ -231,6 +231,7 @@ p{
 }
 
 .formulario{
+    margin-top: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
     border: none;
